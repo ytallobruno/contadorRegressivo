@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./ContadorCard.module.css";
+import styles from "./CounterCard.module.css";
 
-export default function ContadorCard({
+export default function CounterCard({
     titulo,
     timerDias,
     timerHoras,
