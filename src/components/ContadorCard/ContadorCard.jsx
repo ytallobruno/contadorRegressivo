@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./ContadorCard.module.css";
 
 export default function ContadorCard({
+    titulo,
     timerDias,
     timerHoras,
     timerMinutos,
@@ -10,6 +11,7 @@ export default function ContadorCard({
     return (
         <>
             <div className={styles.containerTempo}>
+                <h2>{titulo}</h2>
                 <div className={styles.relogio}>
                     <section>
                         <p>{timerDias}</p>
@@ -35,10 +37,3 @@ export default function ContadorCard({
         </>
     );
 }
-
-ContadorCard.defaultProps = {
-    timerDias: 0,
-    timerHoras: 0,
-    timerMinutos: 0,
-    timerSegundos: 0,
-};
