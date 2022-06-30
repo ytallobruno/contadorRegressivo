@@ -24,7 +24,7 @@ export default function Form() {
             } else {
                 setTempo([dias, horas, minutos, segundos]);
             }
-        });
+        }, 1000);
     };
 
     const [aparecer, setAparecer] = useState(false);
@@ -56,7 +56,7 @@ export default function Form() {
                 <Button text="Calcular" click={ativarFuncoes} />
             </section>
 
-            {aparecer ? (
+            {aparecer && (
                 <div>
                     <CounterCard
                         titulo="Contagem regressiva:"
@@ -66,8 +66,6 @@ export default function Form() {
                         timerSegundos={tempo[3]}
                     />
                 </div>
-            ) : (
-                <div></div>
             )}
         </>
     );
