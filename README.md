@@ -17,13 +17,13 @@ Este projeto foi um desafio durante o Calindra Programa onde deveriamos implemen
 
 > ![Badge](https://img.shields.io/website?down_message=em%20andamento&label=STATUS&style=for-the-badge&up_message=conclu%C3%ADdo&url=https://contador-regressivo.netlify.app/)
 >
-> Para visualizar nosso projeto, <a href="https://contador-regressivo.netlify.app/"> **clique aqui**</a>.
+> Para visualizar meu projeto, <a href="https://contador-regressivo.netlify.app/"> **clique aqui**</a>.
 
 <br>
 
 <h2 id="ferramentas"> Ferramentas utilizadas 🛠️</h2>
 
-Utilizamos as seguintes ferramentas em nosso Site:
+Utilizei as seguintes ferramentas em meu projeto:
 
 - Javascript
 - React (Vite)
