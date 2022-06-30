@@ -10,9 +10,9 @@ export default function CounterCard({
 }) {
     return (
         <>
-            <div className={styles.containerTempo}>
+            <div className={styles.timeContainer}>
                 <h2>{titulo}</h2>
-                <div className={styles.relogio}>
+                <div className={styles.clock}>
                     <section>
                         <p>{timerDias}</p>
                         <p>Dia(s)</p>

@@ -1,4 +1,4 @@
-.containerTempo {
+.timeContainer {
     margin: 3rem 0;
     display: flex;
     justify-content: center;
@@ -6,21 +6,33 @@
     flex-direction: column;
 }
 
-.relogio {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.timeContainer > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
 }
 
-.relogio section {
+.clock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.clock section {
     text-align: center;
 }
 
-.relogio > section p {
-    font-size: 1.6rem;
+.clock > section p {
+    font-size: 2.6rem;
+    margin: 0.2rem 0;
 }
 
-.relogio > span {
+.clock > span {
     font-size: 2.6rem;
+}
+
+.clock > section > p:nth-child(even) {
+    font-size: 1rem;
 }
